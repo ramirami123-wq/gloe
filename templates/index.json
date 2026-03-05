@@ -15,7 +15,7 @@
         "slide-2": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/ASDSD.png",
+            "image": "shopify://shop_images/3C2F806B-8B39-44EB-8C4A-40082EF89D62_-_Roya_Abou_Haidar_2.png",
             "image_position": "center center",
             "text_box_position": "bottom-right",
             "subheading": "",
@@ -120,7 +120,7 @@
       ],
       "name": "t:sections.featured-product.presets.name",
       "settings": {
-        "product": "markiti-wireless-hair-straightener-brush",
+        "product": "lanbena-nose-pore-strips",
         "layout": "media_first",
         "full_width": false,
         "show_divider": false,
@@ -144,7 +144,7 @@
             "icon": "none",
             "icon_size": "medium",
             "custom_icon": "",
-            "text": "MARKITI",
+            "text": "Glowea",
             "text_size": 20,
             "link": ""
           }
@@ -160,8 +160,8 @@
         "show_divider": false,
         "use_custom_colors": true,
         "colors_icon": "#ffffff",
-        "colors_text": "#ffffff",
-        "colors_background": "#189ddd",
+        "colors_text": "#212326",
+        "colors_background": "#fde1ea",
         "gradient_background": "",
         "padding_top": 20,
         "padding_bottom": 20
@@ -271,7 +271,7 @@
             "icon": "none",
             "icon_size": "medium",
             "custom_icon": "",
-            "text": "MARKITI",
+            "text": "Glowea",
             "text_size": 20,
             "link": ""
           }
@@ -287,8 +287,8 @@
         "show_divider": false,
         "use_custom_colors": true,
         "colors_icon": "#ffffff",
-        "colors_text": "#ffffff",
-        "colors_background": "#189ddd",
+        "colors_text": "#212326",
+        "colors_background": "#fde1ea",
         "gradient_background": "",
         "padding_top": 20,
         "padding_bottom": 20
@@ -347,7 +347,7 @@
             "icon": "none",
             "icon_size": "medium",
             "custom_icon": "",
-            "text": "WELCOME TO MARKITI",
+            "text": "WELCOME TO Glowea",
             "text_size": 20,
             "link": ""
           }
@@ -363,8 +363,8 @@
         "show_divider": false,
         "use_custom_colors": true,
         "colors_icon": "#ffffff",
-        "colors_text": "#ffffff",
-        "colors_background": "#189ddd",
+        "colors_text": "#212326",
+        "colors_background": "#fde1ea",
         "gradient_background": "",
         "padding_top": 20,
         "padding_bottom": 20
