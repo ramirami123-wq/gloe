@@ -85,7 +85,7 @@
         "custom_liquid_9wDUPc": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<div style=\"padding: 12px; text-align: left; background-color: #f9f9f9; font-size: 15px; border-radius: 12px; margin-top: 10px; margin-bottom: 10px; line-height: 1.6;\">\n\n<span style=\"font-weight: bold;\">✨ Cordless & Rechargeable</span> – Style your hair anywhere without needing an outlet.<br><br>\n\n<span style=\"font-weight: bold;\">🔥 Fast, Even Heating</span> –  Advanced ceramic technology smooths hair quickly with less frizz.<br><br>\n\n<span style=\"font-weight: bold;\">🌡️ Adjustable Heat Settings</span> – Suitable for fine, thick, curly, or treated hair.<br><br>\n\n<span style=\"font-weight: bold;\">💫 Smooth, Tangle-Free Results</span> –  Glides gently through hair for a sleek, shiny finish.\n\n</div>"
+            "custom_liquid": "<div style=\"padding: 12px; text-align: left; background-color: #f9f9f9; font-size: 15px; border-radius: 12px; margin-top: 10px; margin-bottom: 10px; line-height: 1.6;\">\n\n<span style=\"font-weight: bold;\">🖤 Deep Blackhead Removal</span> – Effectively lifts blackheads, whiteheads, and impurities from your pores.<br><br>\n\n<span style=\"font-weight: bold;\">🌿 Natural Plant Extracts</span> – Gentle formula helps cleanse pores while keeping skin fresh and smooth.<br><br>\n\n<span style=\"font-weight: bold;\">✨ Unclogs & Tightens Pores</span> – Helps reduce excess oil and improves the appearance of enlarged pores.<br><br>\n\n<span style=\"font-weight: bold;\">💆 Easy Peel-Off Treatment</span> – Apply, let dry, and peel away dirt for instantly cleaner-looking skin.\n\n</div>"
           }
         },
         "variant_picker_txHV9a": {
@@ -161,7 +161,7 @@
         "use_custom_colors": true,
         "colors_icon": "#ffffff",
         "colors_text": "#212326",
-        "colors_background": "#fde1ea",
+        "colors_background": "#fdbfd2",
         "gradient_background": "",
         "padding_top": 20,
         "padding_bottom": 20
@@ -173,7 +173,7 @@
         "heading_NEyD4Q": {
           "type": "heading",
           "settings": {
-            "heading": "AT MARKITI",
+            "heading": "AT GLOWEA",
             "heading_size": "h1",
             "heading_tag": "h2"
           }
@@ -181,7 +181,7 @@
         "text_z3jQfd": {
           "type": "text",
           "settings": {
-            "text": "<p><br/>we believe self-care should be simple, effective, and accessible to everyone. Our mission is to bring salon-quality beauty and personal care products into your home — making everyday routines easier, faster, and more enjoyable.<br/><br/></p>",
+            "text": "<p><br/>We’re passionate about helping people feel confident in their skin. Our store offers carefully selected beauty and skincare products designed to be <strong>effective, affordable, and easy to use</strong>. Our goal is simple: bring you quality products that make your self-care routine better and help you look and feel your best every day. <br/><br/></p>",
             "text_size": "typeset2",
             "secondary_color": false,
             "highlight_phrases": "",
@@ -237,7 +237,7 @@
         "use_custom_colors": true,
         "colors_icon": "#ffffff",
         "colors_text": "#212326",
-        "colors_background": "#fde1ea",
+        "colors_background": "#fdbfd2",
         "gradient_background": "",
         "padding_top": 20,
         "padding_bottom": 20
@@ -249,29 +249,29 @@
         "question_yNkDQY": {
           "type": "question",
           "settings": {
-            "title": "Is the Extra Coarse Roller safe to use?",
-            "text": "<p><br/>Yes, it is designed for hard, thick skin areas. We recommend using gentle pressure and following instructions for best results.<br/><br/></p>"
+            "title": "Are your products safe to use?",
+            "text": "<p>Yes, we carefully select products made with quality ingredients and designed to be safe for regular use. Always follow the instructions provided.</p><p></p>"
           }
         },
         "question_YmRBPG": {
           "type": "question",
           "settings": {
-            "title": "How can I contact customer support?",
-            "text": "<p>You can reach us anytime through our Contact Us page or by email. We’re happy to help!</p>"
+            "title": "How long does it take to see results?",
+            "text": "<p>Results can vary depending on the product and skin type, but many customers notice improvements after <strong>a few uses</strong>.</p>"
           }
         },
         "question_9WMfD8": {
           "type": "question",
           "settings": {
-            "title": "7. Can I use the hair brush on all hair types?",
-            "text": "<p>Yes! It features multiple heat settings suitable for fine, thick, curly, and color-treated hair</p>"
+            "title": "Are your products suitable for all skin types?",
+            "text": "<p>Most of our products are designed to work with <strong>different skin types</strong>, but we recommend doing a <strong>patch test</strong> before full use.</p>"
           }
         },
         "question_8XRAQn": {
           "type": "question",
           "settings": {
-            "title": "Will the product damage me?”",
-            "text": "<p>No, the product will not damage you when used correctly.</p>"
+            "title": "How often should I use the product?",
+            "text": "<p>Usage depends on the product, but generally <strong>1–2 times per week or as directed</strong> works best for skincare treatments.</p>"
           }
         }
       },

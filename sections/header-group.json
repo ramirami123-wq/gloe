@@ -37,7 +37,7 @@
         "direction": "left",
         "speed": 1.6,
         "colors_text": "#000000",
-        "colors_background": "#fde1ea",
+        "colors_background": "#fdbfd2",
         "gradient_background": "",
         "padding_top": 0,
         "padding_bottom": 0

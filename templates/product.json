@@ -19,12 +19,6 @@
     "main": {
       "type": "main-product",
       "blocks": {
-        "custom_liquid_Q4eMAn": {
-          "type": "custom_liquid",
-          "settings": {
-            "custom_liquid": "<style>\n  .star-review-wrapper {\n    display: flex;\n    align-items: center;\n    gap: 8px;\n    flex-shrink: 0;\n  }\n\n  .star-icons svg {\n    width: 20px;\n    height: 20px;\n    fill: #fde1ea; /* Your deep red color */\n  }\n\n  .review-text {\n    font-size: 16px;\n    font-weight: 500;\n    color: #333;\n    white-space: nowrap;\n  }\n\n  @media (max-width: 480px) {\n    .star-review-wrapper {\n      flex-direction: row;\n      justify-content: center;\n    }\n\n    .review-text {\n      font-size: 15px;\n    }\n  }\n</style>\n\n<div class=\"star-review-wrapper\">\n  <div class=\"star-icons\">\n    <!-- 5 Rounded Stars -->\n    <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><path d=\"M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z\"/></svg>\n    <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><path d=\"M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z\"/></svg>\n    <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><path d=\"M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z\"/></svg>\n    <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><path d=\"M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z\"/></svg>\n    <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><path d=\"M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z\"/></svg>\n  </div>\n  <div class=\"review-text\">\n    <strong>5</strong> by <strong>194+</strong> Customers\n  </div>\n</div>"
-          }
-        },
         "title": {
           "type": "title",
           "settings": {
@@ -33,9 +27,11 @@
             "price_size": "medium"
           }
         },
-        "rating": {
-          "type": "rating",
-          "settings": {}
+        "custom_liquid_Q4eMAn": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<style>\n  .star-review-wrapper {\n    display: flex;\n    align-items: center;\n    gap: 8px;\n    flex-shrink: 0;\n  }\n\n  .star-icons svg {\n    width: 20px;\n    height: 20px;\n    fill: #FDBFD2; /* Your deep red color */\n  }\n\n  .review-text {\n    font-size: 16px;\n    font-weight: 500;\n    color: #333;\n    white-space: nowrap;\n  }\n\n  @media (max-width: 480px) {\n    .star-review-wrapper {\n      flex-direction: row;\n      justify-content: center;\n    }\n\n    .review-text {\n      font-size: 15px;\n    }\n  }\n</style>\n\n<div class=\"star-review-wrapper\">\n  <div class=\"star-icons\">\n    <!-- 5 Rounded Stars -->\n    <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><path d=\"M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z\"/></svg>\n    <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><path d=\"M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z\"/></svg>\n    <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><path d=\"M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z\"/></svg>\n    <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><path d=\"M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z\"/></svg>\n    <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><path d=\"M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z\"/></svg>\n  </div>\n  <div class=\"review-text\">\n    <strong>5</strong> by <strong>194+</strong> Customers\n  </div>\n</div>"
+          }
         },
         "price": {
           "type": "price",
@@ -48,13 +44,13 @@
         "custom_liquid_TJV3Ri": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<section class=\"sale-timer\" aria-label=\"Sale countdown timer\">\n  <style>\n    .sale-timer{\n      width:100%;\n      padding:22px 12px;\n      display:flex;\n      justify-content:center;\n      background:##ff85d0;\n      font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;\n    }\n    .sale-timer__wrap{\n      text-align:center;\n    }\n    .sale-timer__label{\n      font-size:24px;\n      font-weight:500;\n      color:#111;\n      margin:0 0 14px 0;\n      line-height:1.1;\n    }\n\n    .sale-timer__row{\n      display:flex;\n      align-items:center;\n      justify-content:center;\n      gap:10px;\n    }\n\n    .sale-timer__box{\n      width:88px;\n      height:68px;\n      background:#fde1ea;\n      color:#fff;\n      border-radius:6px;\n      display:flex;\n      align-items:center;\n      justify-content:center;\n      font-size:34px;\n      font-weight:700;\n      letter-spacing:1px;\n      font-variant-numeric: tabular-nums;\n    }\n\n    .sale-timer__colon{\n      font-size:32px;\n      font-weight:700;\n      color:#ff2a2a;\n      line-height:1;\n      transform: translateY(-1px);\n      user-select:none;\n    }\n\n    @media (max-width:420px){\n      .sale-timer__label{ font-size:20px; }\n      .sale-timer__box{ width:72px; height:58px; font-size:30px; }\n      .sale-timer__colon{ font-size:28px; }\n      .sale-timer__row{ gap:8px; }\n    }\n  </style>\n\n  <div class=\"sale-timer__wrap\">\n    <div class=\"sale-timer__label\">Hurry! Sale ends in</div>\n\n    <div class=\"sale-timer__row\" role=\"timer\" aria-live=\"polite\">\n      <div class=\"sale-timer__box\" id=\"st-hours\">00</div>\n      <div class=\"sale-timer__colon\">:</div>\n      <div class=\"sale-timer__box\" id=\"st-mins\">00</div>\n      <div class=\"sale-timer__colon\">:</div>\n      <div class=\"sale-timer__box\" id=\"st-secs\">00</div>\n    </div>\n  </div>\n\n  <script>\n    (function () {\n      const durationHours = 12; // change if needed\n      const endAt = Date.now() + durationHours * 60 * 60 * 1000;\n\n      const h = document.getElementById(\"st-hours\");\n      const m = document.getElementById(\"st-mins\");\n      const s = document.getElementById(\"st-secs\");\n\n      const pad = n => String(n).padStart(2, \"0\");\n\n      function update(){\n        let diff = endAt - Date.now();\n        if(diff < 0) diff = 0;\n\n        const total = Math.floor(diff / 1000);\n        h.textContent = pad(Math.floor(total / 3600));\n        m.textContent = pad(Math.floor((total % 3600) / 60));\n        s.textContent = pad(total % 60);\n\n        if(diff === 0) clearInterval(timer);\n      }\n\n      update();\n      const timer = setInterval(update, 1000);\n    })();\n  </script>\n</section>"
+            "custom_liquid": "<section class=\"sale-timer\" aria-label=\"Sale countdown timer\">\n  <style>\n    .sale-timer{\n      width:100%;\n      padding:22px 12px;\n      display:flex;\n      justify-content:center;\n      background:##ff85d0;\n      font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;\n    }\n    .sale-timer__wrap{\n      text-align:center;\n    }\n    .sale-timer__label{\n      font-size:24px;\n      font-weight:500;\n      color:#111;\n      margin:0 0 14px 0;\n      line-height:1.1;\n    }\n\n    .sale-timer__row{\n      display:flex;\n      align-items:center;\n      justify-content:center;\n      gap:10px;\n    }\n\n    .sale-timer__box{\n      width:88px;\n      height:68px;\n      background:#FDBFD2;\n      color:#fff;\n      border-radius:6px;\n      display:flex;\n      align-items:center;\n      justify-content:center;\n      font-size:34px;\n      font-weight:700;\n      letter-spacing:1px;\n      font-variant-numeric: tabular-nums;\n    }\n\n    .sale-timer__colon{\n      font-size:32px;\n      font-weight:700;\n      color:#ff2a2a;\n      line-height:1;\n      transform: translateY(-1px);\n      user-select:none;\n    }\n\n    @media (max-width:420px){\n      .sale-timer__label{ font-size:20px; }\n      .sale-timer__box{ width:72px; height:58px; font-size:30px; }\n      .sale-timer__colon{ font-size:28px; }\n      .sale-timer__row{ gap:8px; }\n    }\n  </style>\n\n  <div class=\"sale-timer__wrap\">\n    <div class=\"sale-timer__label\">Hurry! Sale ends in</div>\n\n    <div class=\"sale-timer__row\" role=\"timer\" aria-live=\"polite\">\n      <div class=\"sale-timer__box\" id=\"st-hours\">00</div>\n      <div class=\"sale-timer__colon\">:</div>\n      <div class=\"sale-timer__box\" id=\"st-mins\">00</div>\n      <div class=\"sale-timer__colon\">:</div>\n      <div class=\"sale-timer__box\" id=\"st-secs\">00</div>\n    </div>\n  </div>\n\n  <script>\n    (function () {\n      const durationHours = 12; // change if needed\n      const endAt = Date.now() + durationHours * 60 * 60 * 1000;\n\n      const h = document.getElementById(\"st-hours\");\n      const m = document.getElementById(\"st-mins\");\n      const s = document.getElementById(\"st-secs\");\n\n      const pad = n => String(n).padStart(2, \"0\");\n\n      function update(){\n        let diff = endAt - Date.now();\n        if(diff < 0) diff = 0;\n\n        const total = Math.floor(diff / 1000);\n        h.textContent = pad(Math.floor(total / 3600));\n        m.textContent = pad(Math.floor((total % 3600) / 60));\n        s.textContent = pad(total % 60);\n\n        if(diff === 0) clearInterval(timer);\n      }\n\n      update();\n      const timer = setInterval(update, 1000);\n    })();\n  </script>\n</section>"
           }
         },
         "custom_liquid_H9DXEK": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<div style=\"padding: 12px; text-align: left; background-color: #f9f9f9; font-size: 15px; border-radius: 12px; margin-top: 10px; margin-bottom: 10px; line-height: 1.6;\">\n\n<span style=\"font-weight: bold;\">✨ Cordless & Rechargeable</span> – Style your hair anywhere without needing an outlet.<br><br>\n\n<span style=\"font-weight: bold;\">🔥 Fast, Even Heating</span> –  Advanced ceramic technology smooths hair quickly with less frizz.<br><br>\n\n<span style=\"font-weight: bold;\">🌡️ Adjustable Heat Settings</span> – Suitable for fine, thick, curly, or treated hair.<br><br>\n\n<span style=\"font-weight: bold;\">💫 Smooth, Tangle-Free Results</span> –  Glides gently through hair for a sleek, shiny finish.\n\n</div>"
+            "custom_liquid": "<div style=\"padding: 12px; text-align: left; background-color: #f9f9f9; font-size: 15px; border-radius: 12px; margin-top: 10px; margin-bottom: 10px; line-height: 1.6;\">\n\n<span style=\"font-weight: bold;\">🖤 Deep Blackhead Removal</span> – Effectively lifts blackheads, whiteheads, and impurities from your pores.<br><br>\n\n<span style=\"font-weight: bold;\">🌿 Natural Plant Extracts</span> – Gentle formula helps cleanse pores while keeping skin fresh and smooth.<br><br>\n\n<span style=\"font-weight: bold;\">✨ Unclogs & Tightens Pores</span> – Helps reduce excess oil and improves the appearance of enlarged pores.<br><br>\n\n<span style=\"font-weight: bold;\">💆 Easy Peel-Off Treatment</span> – Apply, let dry, and peel away dirt for instantly cleaner-looking skin.\n\n</div>"
           }
         },
         "variant_picker": {
@@ -107,9 +103,8 @@
         }
       },
       "block_order": [
-        "custom_liquid_Q4eMAn",
         "title",
-        "rating",
+        "custom_liquid_Q4eMAn",
         "price",
         "custom_liquid_TJV3Ri",
         "custom_liquid_H9DXEK",
@@ -191,7 +186,7 @@
         "use_custom_colors": true,
         "colors_icon": "#ffffff",
         "colors_text": "#000000",
-        "colors_background": "#fde1ea",
+        "colors_background": "#fdbfd2",
         "gradient_background": "",
         "padding_top": 20,
         "padding_bottom": 20
@@ -203,7 +198,7 @@
         "heading_76UTPd": {
           "type": "heading",
           "settings": {
-            "heading": "Markiti Brush vs. Flat Iron",
+            "heading": "Deep Blackhead Removal with LANBENA",
             "heading_size": "h1",
             "heading_tag": "h2"
           }
@@ -211,7 +206,7 @@
         "text_x39RiF": {
           "type": "text",
           "settings": {
-            "text": "<p><br/>✓ Straightens hair in less time<br/><br/>✓ Easy and beginner-friendly<br/><br/>✓ Anti-scald, safe design<br/><br/>✓ Perfect for quick styling anywhere<br/><br/></p>",
+            "text": "<p>Unclog pores and remove stubborn blackheads with the LANBENA Nose Pore Strips Mask. This powerful peel-off formula lifts dirt, oil, and impurities, leaving your skin smoother, clearer, and refreshed in minutes.</p>",
             "text_size": "typeset2",
             "secondary_color": false
           }
@@ -223,6 +218,7 @@
       ],
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
+        "image": "shopify://shop_images/WhatsAppImage2026-03-05at15.24.38.jpg",
         "image_position": "center center",
         "layout": "image_first",
         "text_box_position": "middle",
@@ -256,7 +252,7 @@
             "icon": "none",
             "icon_size": "medium",
             "custom_icon": "",
-            "text": "FREE DELIVERY FOR ORDERS ABOVE 45$",
+            "text": "FREE DELIVERY",
             "text_size": 20,
             "link": ""
           }
@@ -273,7 +269,7 @@
         "use_custom_colors": true,
         "colors_icon": "#ffffff",
         "colors_text": "#000000",
-        "colors_background": "#fde1ea",
+        "colors_background": "#fdbfd2",
         "gradient_background": "",
         "padding_top": 20,
         "padding_bottom": 20
@@ -285,7 +281,7 @@
         "heading_eTDxyc": {
           "type": "heading",
           "settings": {
-            "heading": "Markiti Brush Advantage",
+            "heading": "Simple 4-Step Blackhead Removal",
             "heading_size": "h1",
             "heading_tag": "h2"
           }
@@ -293,7 +289,7 @@
         "text_iNcMJf": {
           "type": "text",
           "settings": {
-            "text": "<p>Faster, safer, and easier than a flat iron — smooth hair anytime, anywhere</p>",
+            "text": "<p>Clean your face, apply a thin layer of the mask on your nose, place the strip, and let it dry for 10–15 minutes. Gently peel it off to remove blackheads, oil, and impurities for instantly clearer, smoother skin.</p>",
             "text_size": "typeset2",
             "secondary_color": false
           }
@@ -305,6 +301,7 @@
       ],
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
+        "image": "shopify://shop_images/WhatsAppImage2026-03-05at15.24.39.jpg",
         "image_position": "center center",
         "layout": "image_first",
         "text_box_position": "middle",
@@ -338,19 +335,19 @@
             "header_col_1": "Feature",
             "header_col_2": "US",
             "header_col_3": "OTHERS",
-            "row_1_col_1": "Straightening Hair in Half Time",
+            "row_1_col_1": "Deep Pore Cleansing",
             "row_1_col_2": "✅",
             "row_1_col_3": "❌",
-            "row_2_col_1": "Ease of Use",
+            "row_2_col_1": "Gentle Plant-Based Formula",
             "row_2_col_2": "✅",
             "row_2_col_3": "❌",
-            "row_3_col_1": "Anti-Scald Design",
+            "row_3_col_1": "Visible Results Fast",
             "row_3_col_2": "✅",
             "row_3_col_3": "❌",
-            "row_4_col_1": "Beginner Friendly",
+            "row_4_col_1": "Suitable for All Skin Types",
             "row_4_col_2": "✅",
             "row_4_col_3": "❌",
-            "header_background": "#fde1ea",
+            "header_background": "#fdbfd2",
             "header_text_color": "#ffffff",
             "row_odd_background": "#f3f3f3",
             "row_even_background": "#ffffff",
@@ -382,7 +379,7 @@
             "icon": "none",
             "icon_size": "medium",
             "custom_icon": "",
-            "text": "DELIVERY ALL OVER LEBANON",
+            "text": "Clear pores, clear skin, clear confidence.",
             "text_size": 20,
             "link": ""
           }
@@ -399,7 +396,7 @@
         "use_custom_colors": true,
         "colors_icon": "#ffffff",
         "colors_text": "#000000",
-        "colors_background": "#fde1ea",
+        "colors_background": "#fdbfd2",
         "gradient_background": "",
         "padding_top": 20,
         "padding_bottom": 20
@@ -442,29 +439,29 @@
         "question_LwBBn4": {
           "type": "question",
           "settings": {
-            "title": "How long does the battery last?",
-            "text": "<p>The built-in 9600mAh battery provides multiple styling sessions on a full charge, depending on the heat setting and hair type.</p>"
+            "title": "How often should I use the LANBENA Nose Pore Strips Mask?",
+            "text": "<p>For best results, use it <strong>1–2 times per week</strong> to keep pores clean and reduce blackheads.</p>"
           }
         },
         "question_mcJhGt": {
           "type": "question",
           "settings": {
-            "title": "How long does it take to heat up?",
-            "text": "<p>The brush heats up quickly in just a few minutes, so you can start styling almost immediately.</p>"
+            "title": "Is it suitable for sensitive skin?",
+            "text": "<p>Yes, the formula contains <strong>gentle plant extracts</strong>, but it's recommended to do a <strong>patch test</strong> before first use.</p><p></p>"
           }
         },
         "question_GJeyJf": {
           "type": "question",
           "settings": {
-            "title": "Will it damage my hair?",
-            "text": "<p>The ceramic heating technology distributes heat evenly to help reduce frizz, pulling, and breakage when used correctly.</p>"
+            "title": "How long should I leave the mask on?",
+            "text": "<p>Leave the mask on for about <strong>10–15 minutes</strong> until it fully dries, then gently peel it off.</p>"
           }
         },
         "question_gCFgAe": {
           "type": "question",
           "settings": {
-            "title": "Can it be used on all hair types?",
-            "text": "<p> Yes! It features multiple heat settings suitable for fine, thick, curly, and color-treated hair.</p>"
+            "title": "Can I use it on areas other than my nose?",
+            "text": "<p>Yes, you can apply it on <strong>chin, forehead, or other areas</strong> with blackheads or clogged pores.</p>"
           }
         }
       },
