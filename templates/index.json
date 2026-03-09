@@ -232,7 +232,7 @@
       "name": "t:sections.scrolling-promotion.presets.name",
       "settings": {
         "direction": "left",
-        "speed": 1.6,
+        "speed": 1.8,
         "show_divider": false,
         "use_custom_colors": true,
         "colors_icon": "#ffffff",

@@ -65,6 +65,9 @@
     "cart_recommendations_heading": "You may also like",
     "cart_recommendations_show_vendor": true,
     "predictive_search_show_vendor": true,
+    "social_facebook_link": "gloweaacosmetics",
+    "social_instagram_link": "gloweaacosmetics",
+    "social_tiktok_link": "gloweacosmetics",
     "gift_card_logo_height": 70,
     "sections": {
       "main-password-header": {
