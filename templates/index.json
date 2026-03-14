@@ -138,28 +138,19 @@
     "scrolling_promotion_gqQrxK": {
       "type": "scrolling-promotion",
       "blocks": {
-        "image_Ymg3ja": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Capture444-removebg-preview.png",
-            "height": 80,
-            "link": ""
-          }
-        },
         "announcement_V6HCmb": {
           "type": "announcement",
           "settings": {
             "icon": "none",
-            "icon_size": "medium",
+            "icon_size": "large",
             "custom_icon": "",
-            "text": "",
+            "text": "Free delivery for orders over 50$",
             "text_size": 20,
             "link": ""
           }
         }
       },
       "block_order": [
-        "image_Ymg3ja",
         "announcement_V6HCmb"
       ],
       "name": "t:sections.scrolling-promotion.presets.name",
@@ -172,8 +163,8 @@
         "colors_text": "#212326",
         "colors_background": "#fdbfd2",
         "gradient_background": "",
-        "padding_top": 0,
-        "padding_bottom": 0
+        "padding_top": 16,
+        "padding_bottom": 16
       }
     },
     "rich_text_iPTEGL": {
@@ -223,19 +214,28 @@
     "scrolling_promotion_yJEgih": {
       "type": "scrolling-promotion",
       "blocks": {
+        "image_HB7zwT": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Capture444-removebg-preview.png",
+            "height": 64,
+            "link": ""
+          }
+        },
         "announcement_pGUAFw": {
           "type": "announcement",
           "settings": {
             "icon": "none",
             "icon_size": "medium",
             "custom_icon": "",
-            "text": "WELCOME TO Glowea",
+            "text": "",
             "text_size": 20,
             "link": ""
           }
         }
       },
       "block_order": [
+        "image_HB7zwT",
         "announcement_pGUAFw"
       ],
       "custom_css": [],
@@ -249,8 +249,8 @@
         "colors_text": "#212326",
         "colors_background": "#fdbfd2",
         "gradient_background": "",
-        "padding_top": 20,
-        "padding_bottom": 20
+        "padding_top": 4,
+        "padding_bottom": 4
       }
     },
     "faq_VkHiGm": {
