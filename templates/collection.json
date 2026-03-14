@@ -71,57 +71,41 @@
         "padding_bottom": 72
       }
     },
-    "testimonials_Pe8Ut9": {
-      "type": "testimonials",
+    "scrolling_promotion_99WK6i": {
+      "type": "scrolling-promotion",
       "blocks": {
-        "testimonial_dWcncB": {
-          "type": "testimonial",
+        "announcement_qtVf8M": {
+          "type": "announcement",
           "settings": {
-            "icon": "5",
-            "text": "<p>Add customer reviews and testimonials to showcase your store's happy customers.</p>",
-            "author": "Author"
-          }
-        },
-        "testimonial_9iLhXc": {
-          "type": "testimonial",
-          "settings": {
-            "icon": "5",
-            "text": "<p>Add customer reviews and testimonials to showcase your store's happy customers.</p>",
-            "author": "Author"
-          }
-        },
-        "testimonial_iahTRh": {
-          "type": "testimonial",
-          "settings": {
-            "icon": "5",
-            "text": "<p>Add customer reviews and testimonials to showcase your store's happy customers.</p>",
-            "author": "Author"
-          }
-        },
-        "testimonial_nzkfXD": {
-          "type": "testimonial",
-          "settings": {
-            "icon": "5",
-            "text": "<p>Add customer reviews and testimonials to showcase your store's happy customers.</p>",
-            "author": "Author"
-          }
-        },
-        "testimonial_QiXAcQ": {
-          "type": "testimonial",
-          "settings": {
-            "icon": "5",
-            "text": "<p>Add customer reviews and testimonials to showcase your store's happy customers.</p>",
-            "author": "Author"
+            "icon": "none",
+            "icon_size": "medium",
+            "custom_icon": "",
+            "text": "Free delivery for orders over 50$",
+            "text_size": 20,
+            "link": ""
           }
         }
       },
       "block_order": [
-        "testimonial_dWcncB",
-        "testimonial_9iLhXc",
-        "testimonial_iahTRh",
-        "testimonial_nzkfXD",
-        "testimonial_QiXAcQ"
+        "announcement_qtVf8M"
       ],
+      "name": "t:sections.scrolling-promotion.presets.name",
+      "settings": {
+        "direction": "left",
+        "speed": 1.6,
+        "show_divider": false,
+        "use_custom_colors": true,
+        "colors_icon": "#212326",
+        "colors_text": "#1a1b18",
+        "colors_background": "#fdbfd2",
+        "gradient_background": "",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "testimonials_Pe8Ut9": {
+      "type": "testimonials",
+      "disabled": true,
       "name": "t:sections.testimonials.presets.name",
       "settings": {
         "autorotate": false,
@@ -193,6 +177,7 @@
     "banner",
     "subs",
     "product-grid",
+    "scrolling_promotion_99WK6i",
     "testimonials_Pe8Ut9",
     "guarantees_FEPEea"
   ]

@@ -169,7 +169,7 @@
             "icon": "none",
             "icon_size": "medium",
             "custom_icon": "",
-            "text": "FREE DELIVERY",
+            "text": "Free delivery for orders over 50$",
             "text_size": 20,
             "link": ""
           }
@@ -246,19 +246,28 @@
     "scrolling_promotion_6Xj9FQ": {
       "type": "scrolling-promotion",
       "blocks": {
+        "image_WYREH3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Capture444-removebg-preview.png",
+            "height": 80,
+            "link": ""
+          }
+        },
         "announcement_QJYrYr": {
           "type": "announcement",
           "settings": {
             "icon": "none",
             "icon_size": "medium",
             "custom_icon": "",
-            "text": "FREE DELIVERY",
+            "text": "Clear pores, clear skin, clear confidence.",
             "text_size": 20,
             "link": ""
           }
         }
       },
       "block_order": [
+        "image_WYREH3",
         "announcement_QJYrYr"
       ],
       "name": "t:sections.scrolling-promotion.presets.name",
@@ -271,8 +280,8 @@
         "colors_text": "#000000",
         "colors_background": "#fdbfd2",
         "gradient_background": "",
-        "padding_top": 20,
-        "padding_bottom": 20
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     },
     "image_with_text_BnjUnJ": {
