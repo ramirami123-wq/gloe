@@ -138,19 +138,28 @@
     "scrolling_promotion_gqQrxK": {
       "type": "scrolling-promotion",
       "blocks": {
+        "image_Ymg3ja": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Capture444-removebg-preview.png",
+            "height": 80,
+            "link": ""
+          }
+        },
         "announcement_V6HCmb": {
           "type": "announcement",
           "settings": {
             "icon": "none",
             "icon_size": "medium",
             "custom_icon": "",
-            "text": "Glowea",
+            "text": "",
             "text_size": 20,
             "link": ""
           }
         }
       },
       "block_order": [
+        "image_Ymg3ja",
         "announcement_V6HCmb"
       ],
       "name": "t:sections.scrolling-promotion.presets.name",
@@ -229,6 +238,7 @@
       "block_order": [
         "announcement_pGUAFw"
       ],
+      "custom_css": [],
       "name": "t:sections.scrolling-promotion.presets.name",
       "settings": {
         "direction": "left",
